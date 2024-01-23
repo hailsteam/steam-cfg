@@ -1,0 +1,15 @@
+{
+    "hosts":[
+        "github.com",
+        "www.github.com",
+        "github.githubassets.com",
+        "api.github.com",
+        "store.steampowered.com",
+        "steamcommunity.com",
+        "api.steampowered.com"
+    ],
+    "domainDnsRedicts":{
+        "steamcommunity.com": "cdn.steampowered.com",
+        "store.steamcommunity.com": "cdn.steampowered.com"
+    }
+}
