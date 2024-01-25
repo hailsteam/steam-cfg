@@ -16,11 +16,21 @@
                 "steamcommunity.com": "cdn.steampowered.com"
             },
             "iptables": {
-                "twitch.tv": [
+                "twitch.tv,www.twitch.tv,gql.twitch.tv,passport.twitch.tv": [
                     "151.101.130.167",
                     "151.101.194.167",
                     "151.101.2.167",
                     "151.101.66.167"
+                ],
+                "irc-ws.chat.twitch.tv": [
+                    "35.155.173.205",
+                    "44.232.158.174",
+                    "44.237.58.169"
+                ],
+                "pubsub-edge.twitch.tv": [
+                    "34.211.205.118",
+                    "34.212.119.77",
+                    "35.164.33.131"
                 ]
             }
         },
