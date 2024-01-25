@@ -1,17 +1,33 @@
 {
-    "hosts":[
-        "github.com",
-        "www.github.com",
-        "github.githubassets.com",
-        "raw.githubusercontent.com",
-        "api.github.com",
-        "store.steampowered.com",
-        "steamcommunity.com",
-        "api.steampowered.com",
-        "login.steampowered.com",
-        "checkout.steampowered.com"
-    ],
-    "domainDnsRedicts":{
-        "steamcommunity.com": "cdn.steampowered.com"
+    "speed":  {
+        "reverse": {
+            "hosts": [
+                "github.com",
+                "www.github.com",
+                "github.githubassets.com",
+                "raw.githubusercontent.com",
+                "api.github.com",
+                "store.steampowered.com",
+                "api.steampowered.com",
+                "login.steampowered.com",
+                "checkout.steampowered.com"
+            ],
+            "domainDnsRedicts": {
+                "steamcommunity.com": "cdn.steampowered.com"
+            },
+            "iptables": {
+                "twitch.tv": [
+                    "151.101.130.167",
+                    "151.101.194.167",
+                    "151.101.2.167",
+                    "151.101.66.167"
+                ]
+            }
+        },
+        "fastonly":{
+            "hosts": [
+                "cdn.jsdelivr.net"
+            ]
+        }
     }
 }
