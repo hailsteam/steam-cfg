@@ -3,10 +3,13 @@
         "github.com",
         "www.github.com",
         "github.githubassets.com",
+        "raw.githubusercontent.com",
         "api.github.com",
         "store.steampowered.com",
         "steamcommunity.com",
-        "api.steampowered.com"
+        "api.steampowered.com",
+        "login.steampowered.com",
+        "checkout.steampowered.com"
     ],
     "domainDnsRedicts":{
         "steamcommunity.com": "cdn.steampowered.com",
