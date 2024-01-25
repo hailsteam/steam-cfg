@@ -12,10 +12,6 @@
         "checkout.steampowered.com"
     ],
     "domainDnsRedicts":{
-        "steamcommunity.com": "cdn.steampowered.com",
-        "store.steampowered.com": "cdn.steampowered.com",
-        "login.steampowered.com": "cdn.steampowered.com",
-        "api.steampowered.com": "cdn.steampowered.com",
-        "checkout.steampowered.com": "cdn.steampowered.com"
+        "steamcommunity.com": "cdn.steampowered.com"
     }
 }
