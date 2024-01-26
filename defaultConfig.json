@@ -16,7 +16,7 @@
                 "steamcommunity.com": "cdn.steampowered.com"
             },
             "iptables": {
-                "twitch.tv,www.twitch.tv,gql.twitch.tv,passport.twitch.tv": [
+                "twitch.tv,www.twitch.tv,gql.twitch.tv,passport.twitch.tv,id.twitch.tv,id-cdn.twitch.tv,supervisor.ext-twitch.tv": [
                     "151.101.130.167",
                     "151.101.194.167",
                     "151.101.2.167",
@@ -41,6 +41,16 @@
                     "44.234.237.156",
                     "52.35.177.3",
                     "52.36.62.85"
+                ],
+                "discordapp.com,discordapp.net,www.discord.com,discord.com,gateway.discord.gg,media.tenor.com,images-ext-1.discordapp.net,dl.discordapp.net,status.discord.com,media.discordapp.net,cdn.discordapp.com,click.discord.com": [
+                    "162.159.128.233",
+                    "162.159.135.232",
+                    "162.159.136.232",
+                    "162.159.137.232",
+                    "162.159.138.232"
+                ],
+                "facebook.com,www.facebook.com,facebook.net,fb.com,fbcdn.com": [
+                    "157.240.229.35"
                 ]
             }
         },
